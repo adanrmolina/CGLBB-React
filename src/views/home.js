@@ -19,7 +19,11 @@ const Home = (props) => {
       <section className="home-hero">
         <header className="home-header10">
           <header data-thq="thq-navbar" className="home-navbar">
-            <img alt="image" src="/logo.svg" className="home-branding1" />
+            <img
+              alt="image"
+              src="/logo1-200h-200h.png"
+              className="home-branding1"
+            />
             <div data-thq="thq-burger-menu" className="home-burger-menu">
               <div className="home-hamburger">
                 <img alt="image" src="/hamburger.svg" className="home-icon10" />
@@ -79,10 +83,10 @@ const Home = (props) => {
           </header>
         </header>
         <video
-          src="/togethr-template.mp4"
+          src="/video.mp4"
           loop
           muted
-          poster="/hero-bg.png"
+          poster="/video_moment-1500h-1500h.jpg"
           preload="auto"
           autoPlay
           playsInline
@@ -92,21 +96,23 @@ const Home = (props) => {
           <div className="home-header-container1">
             <div className="home-header11">
               <h1 className="home-heading10">
-                <span>
-                  Face-to-face with
+                <span className="home-text15">
+                  Digitaliza
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
                     }}
                   />
                 </span>
-                <span className="home-text16">imagination</span>
+                <span>
+                  tu operación. Ahorra, escala y controla en tiempo real
+                </span>
                 <br></br>
               </h1>
             </div>
             <p className="home-caption10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt.
+              Tableros analíticos, RPA, gemelos digitales y realidad virtual: un
+              solo equipo para transformar tu negocio
             </p>
           </div>
           <button className="button home-button1">
@@ -119,9 +125,10 @@ const Home = (props) => {
       </section>
       <section className="home-note">
         <h2 className="home-caption11">
-          The most comprehensive lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna.
+          Integramos ingeniería, software y tecnología para resolver problemas
+          reales: desde dashboards y automatización hasta gemelos digitales y
+          experiencias inmersivas. Implementamos proyectos de principio a fin,
+          sin importar el tamaño de tu empresa o industria
         </h2>
       </section>
       <section className="home-statistics">
@@ -1114,7 +1121,11 @@ new BlazeSlider(el, {
         <div className="home-content37">
           <div className="home-main">
             <div className="home-branding2">
-              <img alt="image" src="/logo.svg" className="home-image20" />
+              <img
+                alt="image"
+                src="/logo1-200h-200h.png"
+                className="home-image20"
+              />
               <span className="home-text87">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.

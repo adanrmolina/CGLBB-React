@@ -225,12 +225,6 @@
   font-weight: 500;
 }
  
-.home-text16 {
-  font-style: italic;
-  font-family: Playfair Display;
-  font-weight: 500;
-}
- 
 .home-caption10 {
   color: rgb(255, 255, 255);
   font-size: 24px;
@@ -3977,23 +3971,50 @@
   }
   .home-hero-content {
     gap: var(--dl-layout-space-threeunits);
+    width: 100%;
   }
   .home-heading10 {
+    width: 100%;
     font-size: 36px;
   }
+  .home-text15 {
+    font-style: italic;
+    font-weight: 500;
+  }
   .home-caption10 {
+    color: rgb(255, 255, 255);
+    width: 100%;
     font-size: 16px;
     line-height: 24px;
   }
   .home-button1 {
     text-align: center;
   }
+  .home-caption11 {
+    color: rgb(124, 124, 128);
+    width: auto;
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 500;
+    line-height: 24px;
+  }
   .home-heading11 {
+    width: 100%;
     font-size: 36px;
     line-height: 42px;
   }
+  .home-caption15 {
+    width: 100%;
+  }
   .home-slide-titles {
     display: none;
+  }
+  .home-heading16 {
+    width: 100%;
+  }
+  .home-caption24 {
+    width: 100%;
   }
   .home-image15 {
     height: 400px;
